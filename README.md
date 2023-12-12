@@ -1,6 +1,4 @@
-# Reach Best Full Stack Engineer Application 2023
-
-**Name:** Aditya Gupta
+# Cryptocurrency Tracker Chrome Extension
 
 ## Introduction
 This web scraping tool is a robust solution designed to extract cryptocurrency data from the CoinMarketCap website. Leveraging a combination of technologies, including the Cheerio library for web scraping, Node.js and Express for the backend APIs, and React for the frontend Chrome extension, I have created a seamless and efficient data exploration experience for cryptocurrency enthusiasts.
@@ -30,3 +28,13 @@ The Chrome extension, built with React, served as the interactive interface for 
 
 ## Conclusion:
 This web scraping tool, built on the Cheerio library, Node.js, Express, and React with Tailwind CSS, provides a powerful and user-friendly solution for exploring cryptocurrency data from CoinMarketCap. The chosen technologies contribute to the tool's efficiency, scalability, and adaptability, offering users a seamless experience in the ever-evolving world of cryptocurrency.
+
+## Steps to run the Chrome extension
+1. Clone this repository
+2. Open the terminal and `cd` into the project directory
+3. `cd` into the `frontend` directory
+4. Run `npm install` in the terminal to install the dependencies
+5. Run `npm run build` in the terminal to build the Chrome extension
+6. Open `chrome://extensions/` URL in `Google Chrome` browser and switch on `Developer mode`
+7. Click on `Load unpacked` button and specify the path as the `build` directory present inside the `frontend` directory
+8. The Chrome extension will be loaded into the browser and can be used now!
